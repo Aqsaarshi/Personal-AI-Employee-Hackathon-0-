@@ -1,0 +1,25 @@
+{
+  "odoo": {
+    "url": "http://localhost:8069",
+    "database": "odoo",
+    "username": "admin",
+    "password": "admin",
+    "enabled": true
+  },
+  "sync": {
+    "enabled": true,
+    "frequency_minutes": 30,
+    "sync_direction": "bidirectional"
+  },
+  "mcp_server": {
+    "enabled": true,
+    "port": 3002,
+    "host": "localhost"
+  },
+  "models": {
+    "account_move": "account.move",
+    "account_journal": "account.journal",
+    "res_partner": "res.partner",
+    "product_product": "product.product"
+  }
+}

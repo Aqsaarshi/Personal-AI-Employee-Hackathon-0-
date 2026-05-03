@@ -1,0 +1,118 @@
+[
+  {
+    "id": "entry_20260221_011124_0",
+    "date": "2026-02-21",
+    "amount": 1500.0,
+    "category": "sales",
+    "description": "Website development project payment - FULL AMOUNT",
+    "type": "income",
+    "tags": [
+      "project",
+      "client_a"
+    ]
+  },
+  {
+    "id": "entry_20260221_011124_1",
+    "date": "2026-02-21",
+    "amount": 850.0,
+    "category": "consulting",
+    "description": "Consulting services for client B",
+    "type": "income",
+    "tags": [
+      "consulting",
+      "client_b"
+    ]
+  },
+  {
+    "id": "entry_20260221_011124_2",
+    "date": "2026-02-21",
+    "amount": 300.0,
+    "category": "marketing",
+    "description": "Google Ads campaign",
+    "type": "expense",
+    "tags": [
+      "q1",
+      "advertising"
+    ]
+  },
+  {
+    "id": "entry_20260221_011124_3",
+    "date": "2026-02-21",
+    "amount": 200.0,
+    "category": "software",
+    "description": "Software subscription",
+    "type": "expense",
+    "tags": [
+      "monthly",
+      "subscription"
+    ]
+  },
+  {
+    "id": "entry_20260221_011920_4",
+    "date": "2026-02-21",
+    "amount": 100.0,
+    "category": "sales",
+    "description": "Audit test transaction",
+    "type": "income",
+    "tags": []
+  },
+  {
+    "id": "entry_20260221_012930_5",
+    "date": "2026-02-21",
+    "amount": 50.0,
+    "category": "sales",
+    "description": "Error handler test transaction",
+    "type": "income",
+    "tags": []
+  },
+  {
+    "id": "entry_20260315_235644_6",
+    "date": "2026-03-15",
+    "amount": 230.0,
+    "category": "sales",
+    "description": "Odoo Invoice: INV/2026/00005 - Aqsa",
+    "type": "income",
+    "tags": [
+      "odoo_sync",
+      "invoice"
+    ]
+  },
+  {
+    "id": "entry_20260316_001227_7",
+    "date": "2026-03-15",
+    "amount": 460.0,
+    "category": "sales",
+    "description": "Odoo Invoice: INV/2026/00006 - Aqsa",
+    "type": "income",
+    "tags": [
+      "odoo_sync",
+      "invoice"
+    ]
+  },
+  {
+    "id": "entry_20260324_220936_8",
+    "date": "2026-03-24",
+    "amount": 11.5,
+    "category": "sales",
+    "description": "Odoo Invoice: INV/2026/00007 - Test",
+    "type": "income",
+    "tags": [
+      "odoo_sync",
+      "invoice",
+      "auto_sync"
+    ]
+  },
+  {
+    "id": "entry_20260325_001132_9",
+    "date": "2026-03-24",
+    "amount": 11.5,
+    "category": "sales",
+    "description": "Odoo Invoice: INV/2026/00008 - Aqsa Arshad Rasheed",
+    "type": "income",
+    "tags": [
+      "odoo_sync",
+      "invoice",
+      "auto_sync"
+    ]
+  }
+]

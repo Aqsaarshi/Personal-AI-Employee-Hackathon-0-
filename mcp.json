@@ -1,0 +1,6 @@
+{
+  "servers": [
+    {"name": "email", "command": "node", "args": ["mcp_servers/email_mcp.js"]},
+    {"name": "odoo", "command": "python", "args": ["Skills/Odoo_Integration/odoo_mcp_server.py"]}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "retry_policy": {
+    "enabled": true,
+    "max_attempts": 3,
+    "base_delay_seconds": 1,
+    "max_delay_seconds": 60,
+    "backoff_multiplier": 2,
+    "retryable_errors": ["ConnectionError", "TimeoutError", "RateLimitError", "TemporaryError", "Exception"]
+  },
+  "fallback_modes": {
+    "enabled": true,
+    "strategies": {
+      "service_degradation": true,
+      "circuit_breaker": true,
+      "fallback_values": true
+    }
+  },
+  "alerting": {
+    "enabled": true,
+    "critical_threshold": 5,
+    "repeat_alert_interval_minutes": 30,
+    "notification_channels": ["dashboard", "human_approval"]
+  },
+  "degradation": {
+    "enabled": true,
+    "safe_mode_operations": ["read_only", "cache_fallback", "reduced_functionality"]
+  }
+}

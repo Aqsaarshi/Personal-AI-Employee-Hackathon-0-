@@ -1,0 +1,36 @@
+{
+  "facebook": {
+    "access_token": "your_facebook_access_token",
+    "page_id": "your_facebook_page_id",
+    "enabled": false
+  },
+  "instagram": {
+    "access_token": "your_instagram_access_token",
+    "account_id": "your_instagram_account_id",
+    "enabled": false
+  },
+  "posting_schedule": {
+    "enabled": true,
+    "time": "09:00",
+    "timezone": "UTC",
+    "days": [
+      "mon",
+      "wed",
+      "fri"
+    ]
+  },
+  "retry_settings": {
+    "max_attempts": 3,
+    "delay_seconds": 60
+  },
+  "engagement_tracking": {
+    "fetch_interval_minutes": 30,
+    "metrics": [
+      "likes",
+      "comments",
+      "shares",
+      "reach",
+      "impressions"
+    ]
+  }
+}

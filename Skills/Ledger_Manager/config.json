@@ -1,0 +1,21 @@
+{
+  "database": {
+    "type": "json",
+    "path": "ledger_data.json",
+    "backup_enabled": true,
+    "backup_path": "backups/ledger_backup.json"
+  },
+  "categories": {
+    "income": ["sales", "consulting", "investment", "other_income"],
+    "expenses": ["office_rent", "utilities", "salaries", "marketing", "travel", "software", "hardware", "other_expenses"]
+  },
+  "mcp_server": {
+    "enabled": true,
+    "port": 3001,
+    "host": "localhost"
+  },
+  "reporting": {
+    "weekly_summary_day": "fri",
+    "currency": "USD"
+  }
+}

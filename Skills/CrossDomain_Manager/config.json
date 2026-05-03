@@ -1,0 +1,21 @@
+{
+  "domains": {
+    "personal": {
+      "folder": "Personal_Tasks",
+      "priorities": ["low", "medium", "high"],
+      "default_deadline": "7d"
+    },
+    "business": {
+      "folder": "Business_Tasks",
+      "priorities": ["low", "medium", "high", "critical"],
+      "default_deadline": "3d"
+    }
+  },
+  "integration_sources": [
+    "gmail",
+    "linkedin",
+    "whatsapp",
+    "vault",
+    "social_media"
+  ]
+}

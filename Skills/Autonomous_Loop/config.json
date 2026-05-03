@@ -1,0 +1,28 @@
+{
+  "loop_settings": {
+    "enabled": true,
+    "max_iterations": 100,
+    "iteration_timeout_minutes": 60,
+    "pause_between_iterations_seconds": 5
+  },
+  "planning": {
+    "default_planner": "CrossDomain_Manager",
+    "planning_timeout_minutes": 10,
+    "plan_validation_enabled": true
+  },
+  "execution": {
+    "concurrent_execution": false,
+    "execution_timeout_minutes": 30,
+    "error_recovery_enabled": true
+  },
+  "verification": {
+    "verification_timeout_minutes": 10,
+    "success_threshold": 0.9,
+    "verification_methods": ["status_check", "result_validation", "external_verification"]
+  },
+  "reflection": {
+    "learning_enabled": true,
+    "adaptation_enabled": true,
+    "reflection_timeout_minutes": 5
+  }
+}

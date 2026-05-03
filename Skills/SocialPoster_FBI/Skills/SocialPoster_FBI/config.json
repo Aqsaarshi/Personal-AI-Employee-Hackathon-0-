@@ -1,0 +1,36 @@
+{
+  "facebook": {
+    "access_token": "EAARnzrfFLUwBQ6fQed5YIFFomKVRjutMXYZClGFKXHUfZC86Mo2Nwut2NT0cpxzhzimtItTw01AZAfwIWa5dV3zIih3UIlHcybLkLoSqV6ktspMkslSB9xsNElt0GZCJWvsDGtbnnkOtpxXFaBsyc5VdGJrb2TLNPJmb1qryhh0KgDzP7vtpPv09H4KlDDMPmR2V9lYfFf9sVsbsZCzySiwVV6xdJcm5jC4HTrfdnpToZD",
+    "page_id": "981844055011921",
+    "enabled": true
+  },
+  "instagram": {
+    "access_token": "your_instagram_access_token",
+    "account_id": "your_instagram_account_id",
+    "enabled": false
+  },
+  "posting_schedule": {
+    "enabled": true,
+    "time": "09:00",
+    "timezone": "UTC",
+    "days": [
+      "mon",
+      "wed",
+      "fri"
+    ]
+  },
+  "retry_settings": {
+    "max_attempts": 3,
+    "delay_seconds": 60
+  },
+  "engagement_tracking": {
+    "fetch_interval_minutes": 30,
+    "metrics": [
+      "likes",
+      "comments",
+      "shares",
+      "reach",
+      "impressions"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+# environment file
+.env
+token.json
+credentials.json
+
+# config file (jisme keys hain)
+config.js
+
+# watchers secrets
+watchers/token.json
+watchers/credentials.json
+
+# dependencies
+node_modules/
+
+# logs
+logs/
+*.log

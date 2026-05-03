@@ -1,0 +1,37 @@
+{
+  "reporting": {
+    "output_format": ["markdown", "pdf"],
+    "default_format": "markdown",
+    "output_path": "Reports/CEO_Reports",
+    "include": {
+      "financial_summary": true,
+      "social_media_performance": true,
+      "leads_and_opportunities": true,
+      "risks_and_recommendations": true,
+      "performance_metrics": true
+    }
+  },
+  "data_sources": {
+    "ledger_manager": {
+      "enabled": true,
+      "path": "Skills/Ledger_Manager/ledger_manager.py"
+    },
+    "social_poster_fbi": {
+      "enabled": true,
+      "path": "Skills/SocialPoster_FBI/social_poster_fbi.py"
+    },
+    "social_poster_twitter": {
+      "enabled": true,
+      "path": "Skills/SocialPoster_Twitter/social_poster_twitter.py"
+    },
+    "cross_domain_manager": {
+      "enabled": true,
+      "path": "Skills/CrossDomain_Manager/crossdomain_manager.py"
+    }
+  },
+  "report_schedule": {
+    "enabled": true,
+    "day": "fri",
+    "time": "17:00"
+  }
+}

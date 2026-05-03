@@ -1,0 +1,38 @@
+{
+  "id": "plan_5_20260315_222011",
+  "tasks": [
+    {
+      "skill_name": "social_poster_fbi",
+      "method": "process_content_queue",
+      "args": [],
+      "kwargs": {},
+      "description": "Process Facebook/Instagram content queue"
+    },
+    {
+      "skill_name": "social_poster_twitter",
+      "method": "process_tweet_queue",
+      "args": [],
+      "kwargs": {},
+      "description": "Process Twitter content queue"
+    },
+    {
+      "skill_name": "ledger_manager",
+      "method": "backup_data",
+      "args": [],
+      "kwargs": {},
+      "description": "Backup financial data"
+    },
+    {
+      "skill_name": "ceo_briefing_generator",
+      "method": "generate_weekly_report",
+      "args": [],
+      "kwargs": {},
+      "description": "Generate weekly CEO briefing"
+    }
+  ],
+  "priority": "medium",
+  "description": "Autonomous loop iteration 6 plan",
+  "created_at": "2026-03-15T22:20:11.738259",
+  "executed_tasks": [],
+  "failed_tasks": []
+}

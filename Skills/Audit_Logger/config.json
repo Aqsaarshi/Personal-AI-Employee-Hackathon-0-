@@ -1,0 +1,27 @@
+{
+  "logging": {
+    "enabled": true,
+    "log_level": "INFO",
+    "log_format": "structured",
+    "output": {
+      "file": {
+        "enabled": true,
+        "path": "logs/audit.log",
+        "max_size_mb": 10,
+        "backup_count": 5
+      },
+      "console": {
+        "enabled": false
+      }
+    }
+  },
+  "tracking": {
+    "track_retries": true,
+    "max_retries_to_log": 5,
+    "failed_actions_alert": true
+  },
+  "reporting": {
+    "structured_for_reports": true,
+    "include_performance_metrics": true
+  }
+}
